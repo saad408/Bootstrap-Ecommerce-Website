@@ -1,0 +1,248 @@
+.navb{
+    display: flex;
+    justify-content: space-between;
+    /* height: 87px; */
+    position: relative;
+   
+}
+
+.first{
+    border-right: 2px solid #898989;
+}
+
+a{
+    text-decoration: none;
+    color: #898989;
+}
+li{
+    list-style: none;
+}
+.firsta{
+    color: #898989;
+}
+.firstb li{
+    padding-right: 10px;
+}
+.first-pic{
+    background-image: url("images/home-banner.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.firstCBT{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.short-btns button {
+    
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 50%; 
+    background-color: transparent !important;
+    border: 5px solid white !important; 
+}
+
+.short-btns .active {
+    background-color: transparent !important ;
+    border-color: rgb(184, 194, 184) !important; 
+}
+.second-pic{
+    background-image: url("images/home-banner2.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: contain;
+}
+.third-pic{
+    background-image: url("images/home-banner3.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bba{
+    background-color: transparent;
+    border: 0;
+}
+.third li a{
+    text-decoration: none;
+    color: #898989;
+
+}
+.my-button button{
+ display: flex !important;
+}
+
+.third{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.thirdb{
+    border-radius: 15px;
+    
+}
+.fourth {
+    margin-left: auto;
+    margin-right: auto;
+}
+.fourtha {
+    justify-content: space-between;
+}
+.fourthb {
+    display: flex;
+    justify-content: space-between;
+}
+.fourthc{
+    background-color: rgb(215, 100, 100);
+    width: 31px;
+    height: 10px;
+    position: relative;
+    top: 20px;
+}
+.card{
+    transition: 0.1s;
+}
+.card:hover{
+    transform: scale(1.08);
+}
+.card-hover .fourthb {
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    float: right;
+    display: flex;
+    top: 83%;
+    left: 100%;
+   
+}
+.butta {
+    background-color: rgb(27, 25, 25);
+    color: white;
+    height: 100%;
+    width: 70%;
+}
+.buttb{
+    background-color: rgb(231, 75, 75);
+    height: 100%;
+    width: 20%;
+    
+}
+
+.ddds{
+    overflow: hidden;
+}
+.dddd{
+    overflow: hidden;
+}
+.ddds:hover .overlay{
+    left: 74%;
+    transition: 1s;
+    overflow-x: 0;
+    overflow-y: 0;
+
+}
+
+.dddd:hover .overlay{
+    left: 46%;
+    transition: 1s;
+    overflow-x: 0;
+    overflow-y: 0;
+
+}
+
+.hovertwol a:hover {
+    color: red;
+}
+.thirdb:hover{
+    background-color: red;
+}
+
+.lastbut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lastbutt{
+    width: 154px;
+    height: 47px;
+}
+@media (max-width: 1140px) {
+    .ddds:hover .overlay{
+        top: 77%;
+        left: 58%;
+       
+    }
+    .dddd:hover .overlay{
+        top: 77%;
+        left: 20%;
+       
+    }
+}
+@media (max-width: 992px) {
+    .ddds:hover .overlay{
+        top: 84%;
+        left: 75%;
+       
+    }
+    .dddd:hover .overlay{
+        top: 92%;
+        left: 75%;
+       
+    }
+}
+
+@media (max-width: 768px) {
+    .ddds:hover .overlay{
+        top: 78%;
+        left: 66%;
+       
+    }
+    .dddd:hover .overlay{
+        top: 88%;
+        left: 67%;
+       
+    }
+}
+@media (max-width: 576px) {
+    .ddds:hover .overlay{
+        top: 72%;
+        left: 57%;
+       
+    }
+    .dddd:hover .overlay{
+        top: 85%;
+        left: 57%;
+       
+    }
+}
+
+@media (max-width: 513px) {
+    .navb{
+        display: flex;
+        flex-direction: column;
+    }
+}
